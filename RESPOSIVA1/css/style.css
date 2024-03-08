@@ -1,0 +1,67 @@
+*{/*el asterísto hace referencia a todo nuestro html*/
+    box-sizing: border-box;/*calcular el ancho y alto total de un elemento.*/
+    margin: 0;/*establece el margen para los cuatro lados*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*define el tipo de letra que se usará*/
+    color: black; /*color de la letra*/
+}
+.left{/*elemento lado izquierdo*/
+    background-color: rgb(255, 0, 0);/*color de fondo del elemento*/
+    padding: 11.5px;/*relleno que se crea alrededor del contenido de un elemento dentro de los bordes definidos*/
+    float: left;/*ubica un elemento al lado izquierdo o derecho de su contenedor, 
+    permitiendo a los elementos de texto y en línea*/
+    width: 30%;/*manipula el ancho del elemento*/
+    color:aliceblue;/*color de la fuente*/
+    text-align: left;/*alineación del texto centrada*/
+}
+.main{/*elemento central*/
+    background-color: rgb(55, 0, 255);
+    padding: 49.4px;
+    float: left;
+    width: 50%;
+    color:aliceblue;
+    text-align: center;
+}
+.right{/*elemento lado derecho*/
+    background-color: rgb(21, 255, 0);
+    padding: 11.5px;
+    float: left;
+    width: 20%;
+    color:aliceblue;
+    text-align: right;
+}
+.footer{/*indica el término del sitio web dentro de la estructura.*/
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    bottom: 0;
+    margin-top: 100%;
+}
+@media  screen and (max-width: 1200px) {/*media query se compone de un tipo de medio opcional 
+    y cualquier cantidad de expresiones de características de medios, que pueden combinarse */
+    .left{
+        padding: 2px;
+        width: 30%;
+        
+    }
+    .main{
+        padding: 2px;
+        margin-top: -.5px;
+        width: 39%;
+    }
+    .right{
+        padding: 2px;
+        width: 31%;
+    }
+    .footer{
+        margin-top: 195%;
+    }
+    .footer p{
+        padding: 5px;
+        
+        width: 50%;
+        height: 10%;
+    }
+
+    
+}

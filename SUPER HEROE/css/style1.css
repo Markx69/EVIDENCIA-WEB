@@ -1,0 +1,95 @@
+.caja1{/*molde del elemento para crear una línea vertical*/
+    width: 30%;/*anchura del elemento*/
+    margin-left: auto;/*margen izquierdo automático*/
+    margin-right: auto;/*margen derecho automático*/
+        
+}
+.caja1{/*cuadro de contenido*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*tipo de letra*/
+    color:red;/*color de letra*/
+    text-align: center;/*alineación centrada del texto*/
+    border-radius: 7px;/*ondulación de las 4 esquinas del elemento*/
+    background-color: #162b4e;/*color de fondo del elemento*/
+    border-style: dashed;/*estilo de borde punteado*/
+    border-color: white;/*color del borde blanco*/
+}
+.c2{/*manipulación de línea horizontal*/
+    border-left: thick solid #000;/*tipo de borde sólido y color negro*/
+    height: 15%;/*altura del margen */
+    left: 50%;/*distancia de margen izquierdo*/
+    position: absolute;/*posición del elemento absoluta*/
+}
+.caja3{/*manipulación de para dar forma de línea*/
+    margin-top: 6.5%;/*margen superior*/
+    margin-left: 25%;/*margen de lado derecho*/
+    border: thick solid #000;/*tipo de borde sólido, color negro*/
+    width: 50%;/*anchura del borde*/
+    position: absolute;/*posición absoluta del elemento*/
+}
+.caja4{/*manipulación para la creación de una línea*/
+    margin-top: 6.5%;/*margen superior*/
+    border-left: thick solid #000;/*tipo de borde sólido color negro*/
+    height: 15%;/*altura del elemento*/
+    left: 25.5%;/*margen de lado izquierdo*/
+    position: absolute;/*posición absoluta*/
+}
+.caja5{/*manipulació para crear una línea*/
+    margin-top: 7%;/*margen superior*/
+    border-left: thick solid #000;/*margen izquierdo sólido color negro*/
+    height: 15%;/*altura del elemento*/
+    left: 76%;/*margen de lado izquierdo*/
+    position: absolute;/*posición absoluta*/
+}
+.caja6{/*cuadro de texto*/
+    width: 20%;/*anchura del elemento*/
+    margin-top: 13.5%;/*margen superior del elemento*/
+    margin-left: 15%;/*margen de lado izquierdo*/
+    margin-right: auto;/*margen de lado derecho automático*/
+        
+}
+.caja6{/*cuadro de texto*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*tipo de letra*/
+    color:red;/*color de letra*/
+    text-align: center;/*alineación del texto*/
+    border-radius: 7px;/*forma del borde de las 4 esquinas del elemento*/
+    background-color: #162b4e;/*color de fondo del elemento*/
+    border-style: dashed;/*estilo del borde punteado*/
+    border-color: white;/*color del borde*/
+}
+.caja7{/*cuadro de texto*/
+    width: 20%;/*anchura del elemento*/
+    margin-top: -3.5%;/*margen superior del elemento*/
+    margin-left: auto;/*margen de lado izquierdo del elemento automático*/
+    margin-right: 13%;/*margen de lado derecho del elemento*/
+        
+}
+.caja7{/*cuadro de texto*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*tipo de letra*/
+    color:red;/*color de letra*/
+    text-align: center;/*alineación del texto*/
+    border-radius: 7px;/*forma de las 4 esquinas del elemento*/
+    background-color: #162b4e;/*color de fondo del elemento*/
+    border-style: dashed;/*estilo del borde punteado*/
+    border-color: white;/*color del borde blanco*/
+}
+.fondoyutu {/*formato del enlazamiento de vídeo de youtube para fondo*/
+    position: fixed;/*posición del vídeo estilo flotante*/
+    top: 0;/*sin margen superior*/
+    left: 0;/*sin margen de lado izquierdo*/
+    width: 100%;/*anchura del vídeo pantalla completa*/
+    height: 100%;/*altura del vídeo pantalla completa*/
+    z-index: -1;/*manejo de las capas de los elementos para posicionar como primera*/
+}
+
+.yutu {/*posición y formato del vídeo*/
+    position: absolute;/*posición absoluta del vídeo*/
+    top: 0;/*sin margen superior*/
+    left: 0;/*sin margen izquierdo*/
+    width: 100%;/*anchura completa del vídeo*/
+    height: 100%;/*altura completa del vídeo*/
+}
+
+.yutu iframe {/*tamaño del video*/
+    width: 100%;/*pantalla completa*/
+    height: 100%;/*pantalla completa*/
+}

@@ -1,0 +1,43 @@
+.circulo{/*manipulación de un elemento para crear un círculo*/
+    width: 100px;/*ancho del circulo*/
+    height: 100px;/*altura del circulo*/
+    border-radius: 50%;/*Redondea el borde*/
+    background-color: blue;/*color de fondo del elemento*/
+    border-style: solid;/*estilo de borde sólido*/
+    margin-bottom: 10px;/*margen general*/
+    display: block;/*visualización en tipo bloque*/
+    margin-left: auto;/*margen izquierdo automático*/
+    margin-right: auto;/*margen derecho automático*/
+}
+.rectángulo{/*manipulación de elemento para crear un rectángulo*/
+    border: #000;/*color de borde*/
+    border-style: dashed;/*estilo de borde puntedo*/
+    width: 150px;/*ancho del elemento*/
+    height: 70px;/*altura del elemento*/
+    background-color: rgb(208, 255, 0); /*color de fondo del elemento*/
+    margin-bottom: 10px;/*margen general*/
+    margin-right: auto;/*margen derecho automático*/
+    margin-left: auto;/*margen izquierdo automático*/
+}
+.triangulo{/*manipulación de un elemento para crear un triángulo*/
+width: 0;/*sin ancho del elemento*/
+right: 0;/*sin margen de lado derecho*/
+border: 150px solid; /*tamaño de borde con estilo sólido*/
+border-top: 0;/*sin margen superior del elemento*/
+border-bottom: 150px solid #ff0000;/*borde general con estilo sólido color rojo*/
+margin-left: auto;/*margen de lado izquierdo automático*/
+margin-right: auto;/*margen de lado derecho automático*/
+display:block;/*visualización con estilo de bloque*/
+}
+.rombo{/*manipulación de elemento para crear un rombo*/
+    width: 150px;/*anchura del elemento*/
+    height: 150px;/*altura del elemento*/
+    background-color: #09ff00;/*color de fondo del elemento*/
+    position: relative;/*posición del elemento relativa*/
+    transform: rotate(45deg);/*rotación del elemento*/
+    margin-top: 50px;/*margen superior*/
+    margin-left: 40px;/*margen de lado izquierdo*/
+    border-style: dashed;/*estilo de borde punteado*/
+    margin-left: auto;/*margen de lado izquierdo automático*/
+    margin-right: auto;/*margen de lado derecho automático*/
+}

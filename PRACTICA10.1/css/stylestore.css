@@ -1,0 +1,75 @@
+.ff{
+        text-align: center;/*alineación del texto*/
+        background-image: url("../img/store.jpeg");/*imagen de fondo*/
+        background-position: center;/*posición del fondo centrado*/
+        background-repeat: no-repeat;/*no repite la imagen de fondo*/
+        background-size: cover;/*Escala la imagen al mayor tamaño posible sin estirarla*/
+}
+img{
+        margin-top: -800px;/*margen superior*/
+}
+.especif{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*tipo de letra*/
+        color:#000000;/*color de letra */
+        text-align: center;/*alineación d etexto centrada*/
+        border-radius: 7px;/*manipulación de las esquinas del elemento*/
+        background-color: #ffffffad;/*color de fondo del elemento*/
+        border-style: dashed;/*estilo de borde punteado*/
+        border-color: rgb(228, 94, 5);/*color del borde*/
+        box-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 2em rgb(247, 80, 2), 0 0 0.8em rgb(247, 80, 2);
+        /*efecto sombra al texto tipo neón*/
+}
+.especif{
+    width: 30%;/*ancho del elemento*/
+    margin-left: auto;/*margen de lado izquierdo automático*/
+    margin-right: auto;/*margen de lado derecho automático*/   
+}
+.espec{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*tipo de letra */
+        color:#000000;/*color del texto*/
+        text-align: left;/*alineación del texto centrado*/
+        border-radius: 7px; /*deformación ovalada de las 4 esquinas del elemento*/
+        background-color: #ffffffad;/*color de fondo del elemento*/
+        border-style: dashed;/*estilo de borde*/
+        border-color: rgb(228, 94, 5);/*color de borde del elemeto*/
+        box-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 2em rgb(247, 80, 2), 0 0 0.8em rgb(247, 80, 2);
+        /*crea un efecto de sombra en el elemento tipo neón*/
+        width: 30%;/*ancho del elemento*/
+        margin-left: 12px;/*margen de lado izquierdo*/
+        margin-right: auto;/*margen de lado derecho automático*/
+}
+p{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*estilo de letra del texto*/
+        background-color: aliceblue;/*color de fondo*/
+}
+p{
+        width: 30%;/*ancho del elemento*/
+        margin-left: 12px;/*margen de lado izquierdo*/
+        margin-right: auto;/*margen de lado derecho automático*/
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*estilo de letra del texto*/
+        color:#000000;/*color del texto*/
+        text-align: left;/*alineación del text centrado*/
+        border-radius: 7px;/*deforma de manera ovalada las esquinas del elemento*/
+        background-color: #ffffffad;/*color de fondo del elemento*/
+        border-style: dashed;/*estilo de borde punteado*/
+        border-color: rgb(228, 94, 5);/*color del borde*/
+        text-align: center;/*alineación del texto centrado*/
+        box-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 2em rgb(247, 80, 2), 0 0 0.8em rgb(247, 80, 2);
+        /*crea un efecto de sombra al elemento*/
+}
+.hist{
+    width: 80%;/*ancho del elemento*/
+    margin-top: -82px;/*margen superior*/
+    margin-left: auto;/*margen izquierdo automático*/
+    margin-right: auto;/*margen derecho automático*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/*tipo de letra*/
+    color:#000000;/*color de letra*/
+    text-align: left;/*alineación del texto de lado izquierdo*/
+    border-radius: 7px;/*ondula las esquinas del elemento*/
+    background-color: #ffffffad;/*color de fondo*/
+    border-style: dashed;/*estilo de borde punteado*/
+    border-color: rgb(228, 94, 5);/*color del borde*/
+    text-align: center;/*aliineación del texto centrado*/
+    box-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 2em rgb(247, 80, 2), 0 0 0.8em rgb(247, 80, 2);
+    /*crea efecto de sombra al texto tipo neón*/
+}

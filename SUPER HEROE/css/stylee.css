@@ -1,0 +1,45 @@
+.img{/*Estilo de la imagen*/
+    display: block;/*visualización en bloque*/
+    margin: auto;/*margen general automático*/
+    width: 400px;/*anchura de la imagen*/
+    height: 500px;/*altura de la imagen*/
+    border-radius: 20px;/*redondeo de los 4 bordes de la imagen*/
+    box-shadow: 1px 1px 2px white, 0 0 1em rgb(247, 210, 2), 0 0 0.2em rgb(247, 210, 2);/*agrega un efecto de neon*/
+    display: flex;/*visualización flexible para alterar sus dimensiones*/
+      
+}
+.frase{/*estilo del texto en forma de poema*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*tipo de fuente del texto*/
+    color:#f80707;/*color del texto*/
+    text-align: center;/*alineación del texto*/
+    border-radius: 7px;/*ondula las 4 esquinas del elemento*/
+    background-color: #162b4e;/*color de fondo del texto*/
+    border-style: dashed;/*estilo de borde punteado*/
+    border-color: white;/*color del texto blanco*/
+}
+.frase{/*margen y tamaño del texto, para centrar el elemento*/
+    width: 30%;/*anchura del elemento*/
+    margin-left: auto;/*margen izquierdo automático*/
+    margin-right: auto;/*margen derecho automático*/
+}
+.fondoyutu { /*video de fondo enlazado a youtube*/
+    position: fixed;/*elemento flotante*/
+    top: 0;/*sin distancia superior*/
+    left: 0; /*sin distancia de lado izquierdo*/
+    width: 100%;/*anchura del elemento completo*/
+    height: 100%;/*altura del elemento completo*/
+    z-index: -1;/*orden de las capas del elemento*/
+}
+
+.yutu {/*para dar formato al video*/
+    position: absolute;/*posición absoluta del video (pantalla completa)*/
+    top: 0;/*sin margen*/
+    left: 0;/*sin margen de lado izquierdo*/
+    width: 100%;/*anchura completa del vídeo*/
+    height: 100%;/*altura completa del vídeo*/
+}
+
+.yutu iframe {/*enlazamiento del vídeo a html*/
+    width: 100%;/*ancho completo del vídeo*/
+    height: 100%;/*altura completa del vídeo*/
+}

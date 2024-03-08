@@ -1,0 +1,10 @@
+body{
+    background-image: url("../img/fondo.jpg");/*se aplica una imagen de fondo para la página web*/
+    background-repeat: no-repeat;/*no permite que se repita nuestra imagen de fondo*/
+    background-size: cover;/*permite que la imagen cubra toda la pantalla de la página web*/
+    text-align: center;/*centra la imagen*/
+}
+img{
+margin-top: auto;/*margen superior automático*/
+padding: 10px;/*relleno que se crea alrededor del contenido de un elemento dentro de los bordes definidos*/
+}

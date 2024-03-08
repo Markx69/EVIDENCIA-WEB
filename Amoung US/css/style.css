@@ -1,0 +1,148 @@
+body{/*Todo el cuerpo*/
+    background-color: white ;/*COLOR DE FONDO*/
+    background-size: 50%; /*TAMAÑO DE FONDO*/
+    background-repeat: no-repeat;/*NO REPETIR FONDO*/
+    margin-top: 10%;/*TAMAÑO DE MARGEN DE PARTE SUPERIOR*/
+   
+}
+.amoung{/*Forma de la figura principal*/
+        width: 300px;/*ancho del circulo*/
+        height: 483px;/*altura del circulo*/
+        border-radius: 145px 188px 120px 20px;/*Redondea el borde*/
+        border-width: 18px;/*TAMAÑO DE BORDE*/
+        background-color: #020202;/*COLOR DE  FONDO DE DIV*/
+        border-style: solid; /*ESTILO DE BORDE*/
+        margin-top: -30%;/*MARGEN SUPERIOR*/
+        display: block; /*TIPO DE VISUALIZACIÓON EN BLOQUE*/
+        margin-left: auto;/*MARGEN AUTOMÁTICO*/
+        margin-right: auto;/*MARGEN AUTOMÁTICO*/
+}
+.mochila{/*Forma de la figura secundaria*/
+    width: 122px;/*ancho del circulo*/
+    height: 250px;/*altura del circulo*/
+    border-radius:30% 30% 5% 30%;/*Redondea el borde*/
+    border-width: 18px;/*TAMAÑO DE BORDE*/
+    background-color: #000000; /*COLOR DE FONDO DE DIV*/
+    border-style: solid;/*ESTILO DE BORDE*/
+    display: block;/*VISUALIZACIÓN EN BLOQUE*/
+    margin-top: 1%;/*MARGEN SUPERIOR*/
+    margin-left: 33%;/*MARGEN IZQUIERDO*/
+    margin-right: auto;/*MARGEN DERECHO*/
+    
+}
+.piernaiz{/*Forma y estilo de la pierna izquierda*/
+    width: 120px;/*ancho del circulo*/
+    height: 210px;/*altura del circulo*/
+    border-radius:110px 140px;/*Redondea el borde*/
+    border-width: 18px;/*TAMAÑO DE BORDE*/
+    background-color: #000000;/*COLOR DE FONDO DE DIV*/
+    border-style: solid;/*ESTILO DE BORDE*/
+    margin-top: 120%;/*MARGEN SUPERIOR*/
+    display: block;/*VISUALIZACIÓN EN BLOQUE*/
+    margin-left: -6%;/*MARGEN IZQUIERDO*/
+    margin-right: auto;/*MARGEN DERECHO*/
+}
+.piernad{/*forma de la pierna derecha*/
+    width: 118px;/*ancho del circulo*/
+    height: 210px;/*altura del circulo*/
+    border-radius:101px 140px;/*Redondea el borde*/
+    border-width: 18px;/*TAMAÑO DE BORDE*/
+    background-color: #000000;/*COLOR DE FONDO DE DIV*/
+    border-style: solid; /*ESTILO DE BORDE*/
+    margin-top: -85%;/*MARGEN SUPERIOR */
+    display: block;/*VISUALIZACIÓN EN BLOQUE*/
+    margin-left: auto;/*MARGEN IZQUIERDO*/
+    margin-right: -2%;/*MARGEN DERECHO*/
+}
+.capa{/*forma de la sombra para dar efecto*/
+    width: 300px;/*ancho del circulo*/
+    height: 460px;/*altura del circulo*/
+    border-radius: 140px 188px 110px 20px;/*Redondea el borde*/
+    border-width: -0;/*TAMAÑO DE BORDE*/
+    background-color: #000000;/*COLOR DE FONDO DE DIV*/
+    border-style: solid;/*ESTILO DE BORDE*/
+    margin-top: -190%;/*MARGEN SUPERIOR*/
+    display: block;/*VISUALIZACIÓN EN BLOQUE*/
+    margin-left: 0%;/*MARGEN IZQUIERDO*/
+    margin-right: auto;/*MARGEN DERECHO*/     
+}
+.capa2{/*forma de la sombra*/
+    width: 280px;/*ancho del circulo*/
+    height: 445px;/*altura del circulo*/
+    border-radius: 40% 50% 50% 35%;/*Redondea el borde*/
+    border-width: -0;/*Tamaño de borde*/
+    background-color: #494848;/*color de fondo de la sombra*/
+    border-style: solid;/*Estilo de borde de forma solida*/
+    margin-top: -162%;/*Margen superior*/
+    display: block;/*Visualización en bloque*/
+    margin-left: auto;/*Margen de lado izquierdo*/
+    margin-right: -1%;/*Margen de lado derecho*/     
+}
+.lentes{/*Forma de los lentes*/
+    width: 210px;/*ancho del circulo*/
+    height: 130px;/*altura del circulo*/
+    border-radius:105% 110% 160% 155%;/*Redondea el borde*/
+    background-color: #73989e;
+    border-width: 18px;/*Tamaño del borde*/
+    border-style: solid;/*Estilo del borde*/
+    margin-top: -130%;/*Margen superior*/
+    margin-bottom: 10px;/*Margen total*/
+    display: block;/*Tipo de forma que toma el espacio en bloque*/
+    margin-left: auto;/*Margen de lado izquierdo*/
+    margin-right: -8%;/*Margen de lado derecho*/
+}
+.sombra{/*Efecto sombra de los lentes*/
+    width: 190px;/*ancho del circulo*/
+    height: 100px;/*altura del circulo*/
+    border-radius:105% 110% 160% 155%;/*Redondea el borde*/
+    background-color: #cae8ed;
+    border-width: 0;/*Sin tamaño de borde*/
+    border-style: solid;/*Tipo de borde sólido*/
+    margin-top: -52.5%;/*Distancia de margen superior*/
+    margin-bottom: 10px;/*Margen general del elemento*/
+    display: block;/*Visualización en bloque*/
+    margin-left: auto;/*distancia de margen izquierdo automático*/
+    margin-right: -3%;/*distancia de margen derercho*/
+}
+.sombra2{/*forma y tamaño de la sombra de los lentes*/
+    width: 80px;/*ancho del circulo*/
+    height: 35px;/*altura del circulo*/
+    border-radius:110% 150% 160% 160%;/*Redondea el borde*/
+    background-color: #ffffff;
+    border-width: 0;/*sin tamaño de borde*/
+    border-style: solid;/*Estilo de borde sólido*/
+    transform: rotate(-5deg);/*rotación del elemento*/
+    margin-top: -34%;/*distancia de margen superior*/
+    margin-bottom: 10px;/*distancia de margen general del elemento*/
+    display: block;/*visualización en bloque*/
+    margin-left: auto;/*distancia de margen izquierdo automático*/
+    margin-right: 15%;/*distacia de margen derecho*/
+}
+.sombra3{/*diseño de sombra de los lentes*/
+    width: 50px;/*ancho del circulo*/
+    height: 50px;/*altura del circulo*/
+    border-radius:60% 30% 30% 60%;/*Redondea el borde*/
+    background-color: #494848;/*color de fondo del elemento*/
+    border-style: solid;/*estilo de borde sólido*/
+    border-width: 0;/*sin tamaño de borde*/
+    margin-top: -23px;/*distancia de margen superior*/
+    margin-bottom: 10px;/*distancia de margen general del elemento*/
+    display: block;/*visualización en bloque*/
+    margin-left: -20%;/*distancia de margen izquierdo*/
+    margin-right: auto;/*distancia de margen derecho automático*/
+}
+.ovalo{
+    width: 500px;/*ancho del circulo*/
+    height: 100px;/*altura del circulo*/
+    border-radius: 50%;/*Redondea el borde*/
+    background-color: rgb(31, 31, 32);/*color de fondo del elemento*/
+    border-style: solid;/*esitlo de borde sólido*/
+    margin-bottom: 10px;/*distancia de margen general del elemento*/
+    margin-top: 6%;/*distancia de margen superior*/
+    display: block;/*visualización en bloque*/
+    margin-left: 395px;/*distancia de margen izquierdo*/
+    margin-right: auto;/*distancia de margen derecho automático*/
+    z-index: 1;/*encimar la capa*/
+    
+}
+

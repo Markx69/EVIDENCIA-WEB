@@ -1,0 +1,76 @@
+body{/*estilo al todo el html*/
+    text-align: center;/*alinicación centrada de los elementos*/
+    background-image: url("../img/store.jpeg");/*define una imagen de fondo*/
+    background-position: center;/*posición de la imagen de fondo centrada*/
+    background-repeat: no-repeat;/*no permite que se repita la imagen*/
+    background-size: cover;/*tamaño del fondo cover escala la imagen al mayor tamaño posible sin estirarla*/
+}
+img{
+    margin-top: -679px;/*margen superior*/
+}
+.especif{ /*texto*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*definde el tipo de letra que se usa*/
+    font-size: 40px;/*tamaño de la letra*/
+    color:#000000;/*color de la letra*/
+    text-align: center;/*alineación centrada del texto*/
+    border-radius: 7px;/*manipula las 4 esquinas del elemento*/
+    background-color: #ffffffad;/*color de fondo del texto; blanco*/
+    border-style: dashed;/*tipo de borde punteado*/
+    border-color: rgb(228, 94, 5);/*color del borde*/
+    box-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 2em rgb(247, 80, 2), 0 0 0.8em rgb(247, 80, 2);
+    /*da una sombra neón al elemento*/
+}
+.especif{/*imagenes*/
+width: 40%;/*anchura del elemento*/
+margin-left: auto;/*margen de lado izquierdo*/
+margin-right: auto;/*margen de lado derecho*/
+
+}
+.espec{/*texto*/
+    font-size: 20px;/*tamaño de letra*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*tipo de letra*/
+    color:#000000;/*color de letra*/
+    text-align: left;/*alineación de lado izquierdo*/
+    border-radius: 7px;/*manipula la forma de las 4 esquinas del elemento*/
+    background-color: #ffffffad;/*color de fondo del texto*/
+    border-style: dashed;/*estilo del borde del elemento tipo punteado*/
+    border-color: rgb(228, 94, 5);/*color del borde del elemento*/
+    box-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 2em rgb(247, 80, 2), 0 0 0.8em rgb(247, 80, 2);
+    /*genera una sombra en el texto tipo neón*/
+    width: 30%;/*ancho del elemento*/
+    margin-left: 12px;/*margen de lado izquierdo*/
+    margin-right: auto;/*margen de lado derecho automático*/
+}
+
+p{/*párrafo*/
+    font-size: 20px;/*tamaño de la letra*/
+    width: 30%;/*ancho del elemento*/
+    margin-left: 12px;/*margen de lado izquierdo*/
+    margin-right: auto;/*magen de lado derecho automático*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*tipo de letra*/
+    color:#000000;/*color de la letra*/
+    text-align: left;/*alineación del texto en lado izquierdo*/
+    border-radius: 7px;/*deforma las esquinas del elemento*/
+    background-color: #ffffffad;/*color de fondo*/
+    border-style: dashed;/*estilo de borde tipo punteado*/
+    border-color: rgb(228, 94, 5);/*color del borde*/
+    text-align: center;/*alineacióon centrada del texto*/
+    box-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 2em rgb(247, 80, 2), 0 0 0.8em rgb(247, 80, 2);
+    /*efecto de sombra al texto tipo neón*/
+}
+.hist{/*texto*/
+width: 80%;/*ancho del elemento*/
+margin-top: -350px;/*margen superior*/
+margin-left: auto;/*margen de lado izquierdo automático*/
+margin-right: auto;/*margen de lado derecho automatico*/
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/*tipo de letra*/
+color:#000000;/*color de letra*/
+text-align: left;/*alineación del texto de lado izquierdo*/
+border-radius: 7px;/*deforma las 4 esquinas del elemento*/
+background-color: #ffffffad;/*color de fondo*/
+border-style: dashed;/*estilo de borde del elemento tipo punteado*/
+border-color: rgb(228, 94, 5);/*color del borde*/
+text-align: center;/*alineación del texto de manera centrada*/
+box-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 2em rgb(247, 80, 2), 0 0 0.8em rgb(247, 80, 2);
+/*permite efecto de sombra al texto tipo neón*/
+}

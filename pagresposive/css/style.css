@@ -1,0 +1,441 @@
+.nav__icono{
+    max-width: 6rem;
+    filter: drop-shadow(4px 2px 7px #F25C05);
+}
+.nav__logo img{
+    max-width: 3.5rem;
+    filter: drop-shadow(4px 2px 7px #F25C05);
+}
+.nav{
+    overflow: hidden;
+    padding: 0 40px;
+    height: 80px;
+    margin-top: -2px;
+    margin-left: -21px;
+    background-color: #f25c0500;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 95%;
+
+}
+.nav__link{
+    float:right;
+    display: block;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(3px 0px 7px #F25C05);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav__link:hover{
+    background: #ddd;
+    color:#F25C05;
+    cursor: pointer;
+    border-radius: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav__links{
+    display: flex;
+    margin-top: 1px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+.extras{
+    width: 50%;
+    display: block;
+    margin-top: -150px;
+    margin-left: auto;
+    margin-right: 50px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #F25C05, 0 0 0.2em #F25C05;
+}
+.bn{
+    color: black;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style:outset;
+    width: 30%;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #f25c057e, 0 0 0.2em #ffffff;
+    
+    
+}
+.backgroundStyle{
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: auto;
+    width: 100%;
+    background-color: #000000;
+    height: 600px;
+    background-image: url("../img/ktm-2445495_1280.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.backgroundStyle p{
+    margin-top: 250px;
+    width: 25%;
+    margin-left: auto;
+    overflow: auto;
+    padding: 15px;
+    height: 110px;
+    text-align: justify;
+    background-color: #050505;
+    color:#ddd;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #F25C05, 0 0 0.2em #F25C05;
+    
+}
+.in{
+    color: #ddd;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    border-style:outset;
+    border-color: #f25c057c;
+    width: 30%;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #f25c057e, 0 0 0.2em #ffffff;
+    font-size: 15px;
+}
+.backgroundStyle1{
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: -2%;
+    background-color: #000000;
+    height: 600px;
+    width: 101.5%;
+    background-image: url("../img/ktmlog.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.backgroundStyle1 p{
+    width: 29.5%;
+    color:#ddd;
+    overflow: auto;
+    padding: 15px;
+    height: 100px;
+    text-align: justify;
+    background-color: #00000021;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #f25c057e, 0 0 0.2em #ffffff;
+}
+.con{
+    color: #ddd;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    border-style: dotted;
+    border-color: #f25c057c;
+    width: 25%;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #f25c057e, 0 0 0.2em #ffffff;
+    font-size: 30px;
+}
+.backgroundStyle2{
+    margin-left: -2%;
+    padding: 20px;
+    margin-top: 0px;
+    background-color: #000000;
+    height: 600px;
+    width: 101.5%;
+    background-image: url("../img/motorcycle-6288958_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.backgroundStyle2 p{
+    width: 29.5%;
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: 20px;
+    color:#ddd;
+    overflow: auto;
+    padding: 15px;
+    height: 100px;
+    text-align: justify;
+    background-color: #00000021;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #f25c057e, 0 0 0.2em #ffffff;
+}
+.xboww{
+    color: #ddd;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    border-style: outset;
+    border-color: #f25c057c;
+    width: 25%;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #f25c057e, 0 0 0.2em #ffffff;
+    font-size: 30px;
+}
+.backgroundStyle3{
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: auto;
+    width: 100.1%;
+    background-color: #000000;
+    height: 600px;
+    background-image: url("../img/xbow.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.backgroundStyle3 p{
+    margin-top: -100px;
+    width: 20%;
+    margin-left: auto;
+    overflow: auto;
+    padding: 15px;
+    height: 180px;
+    text-align: justify;
+    background-color: #05050585;
+    color:#ddd;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #F25C05, 0 0 0.2em #F25C05;
+    
+}
+.mhall{
+    color: #000000;
+    margin-top: 115px;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    border-style: outset;
+    border-color: #f25c057c;
+    width: 25%;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #f25c057e, 0 0 0.2em #ffffff;
+    font-size: 30px;
+}
+.backgroundStyle4{
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: auto;
+    width: 100.1%;
+    background-color: #000000;
+    height: 600px;
+    background-image: url("../img/motohall.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.backgroundStyle4 p{
+    margin-top: -100px;
+    width: 20%;
+    margin-left: auto;
+    overflow: auto;
+    padding: 15px;
+    height: 200px;
+    text-align: justify;
+    background-color: #05050585;
+    color:#ddd;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #F25C05, 0 0 0.2em #F25C05;
+    
+}
+.nosotros{
+    color: #ddd;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: outset;
+    border-color: #f25c057c;
+    width: 25%;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #f25c057e, 0 0 0.2em #ffffff;
+    font-size: 30px;
+}
+.backgroundStyle5{
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: auto;
+    width: 100.1%;
+    background-color: #000000;
+    height: 600px;
+    background-image: url("../img/sob.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.backgroundStyle5 p{
+    margin-top: 250px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    padding: 15px;
+    height: 150px;
+    text-align: justify;
+    background-color: #05050585;
+    color:#ddd;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 2em #F25C05, 0 0 0.2em #F25C05;
+    
+}
+/*PARTE RESPONSIVA EN MOVILES*/
+@media screen and (max-width: 600px) {
+.nav__icono{
+        max-width: 6rem;
+    }
+.nav{
+    overflow: hidden;
+    padding: 0 50px;
+    height: 80px;
+    background-color: #00000000;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 85%;
+}
+.nav__links{
+    position: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 120px;
+    margin-left: 285px;
+    top: 65px;
+    background-color: #000000;
+    clip-path: circle(0% at top left);
+    transition: clip-path .4s;
+}
+.nav__link:hover{
+    background: #ddd;
+    color:#F25C05;
+    cursor: pointer;
+    border-radius: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav__link{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.nav__link{
+    float:right;
+    display: block;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(3px 0px 7px #F25C05);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav__links:target{
+    clip-path: circle(150% at top left);
+}
+.bn{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.backgroundStyle{
+    padding: 1px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: auto;
+    width: 120%;
+    height: 690px;
+    background-size: 100% 80%;
+
+}
+.backgroundStyle p{
+    margin-top: 30px;
+    width: 30%;
+    margin-left: 250px;
+    overflow: auto;
+    padding: 15px;
+    height: 150px;
+    
+}
+.extras{
+    margin-top: 30px;
+}
+.in{
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 50%;
+    font-size: 15px;
+}
+.backgroundStyle1{
+    padding: 1px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: auto;
+    width: 120%;
+    height: 690px;
+
+}
+.backgroundStyle1 p{
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 50px;
+    height: 150px;
+}
+.con{
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: auto;
+    width: 25%;
+    font-size: 30px;
+}
+.backgroundStyle2{
+    padding: 1px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: auto;
+    width: 120%;
+    height: 690px;
+
+}
+.backgroundStyle2 p{
+    margin-top: 30px;
+    width: 30%;
+    margin-left: 250px;
+    overflow: auto;
+    padding: 15px;
+    height: 150px;
+
+}
+.backgroundStyle3{
+    padding: 1px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: auto;
+    width: 120%;
+    height: 690px;
+
+}
+.backgroundStyle4{
+    padding: 1px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: auto;
+    width: 120%;
+    height: 690px;
+}
+.backgroundStyle5{
+    padding: 1px;
+    margin-top: 2px;
+    margin-left: -8px;
+    margin-right: auto;
+    width: 120%;
+    height: 690px;
+}
+
+}

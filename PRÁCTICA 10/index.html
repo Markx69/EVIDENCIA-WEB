@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icono/iconospider.png"><!--elemento para colocar un icono en la pestaña del navegador-->
+    <link rel="stylesheet" href="../"><!--enlazamiento de la hoja de estilo con html-->
+    <title>Images cool 01</title><!--titulo en la pestaña del navegador-->
+</head>
+<body>
+    <img src="img/compu.jpeg" alt="Img no encontrada" usemap="#rectangle"/><!--insertar imagen con coordenadas 
+        para que al momento de dar click en la imagen nos direccione a una ruta específica-->
+    <map name="rectangle"><!--es utilizada para crear un mapa de imágenes, 
+        que permite definir zonas de una imagen que pueden ser enlazadas a otras 
+        páginas web o a otras partes de la misma página-->
+        <area 
+        shape="rect"
+        coords="34, 44, 270, 350"
+        href="pages/page.html"
+        name="rectangle"/><!--Sirve para crear las distintas secciones en las que se puede dividir un mapa de imágenes-->
+        <area 
+        shape="circle" 
+        coords="337, 300, 44" 
+        href="pages/page1.html"
+        name="circle" 
+        alt="Img no encontrada"/>
+        <area
+        shape="rect" 
+        coords="333, 248, 290, 172" 
+        href="pages/pages3.html" 
+        name="rectangle"
+        alt="Img no encontrada"/>
+        </map>
+</body>
+</html>

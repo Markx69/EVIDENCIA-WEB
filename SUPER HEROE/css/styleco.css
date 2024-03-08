@@ -1,0 +1,177 @@
+body{/*cuerpo*/
+    background-color: #000;/*color de fondo*/
+
+}
+.circulo{/*manipulación de un elemeto para crear un círculo*/
+    width: 100px;/*ancho del circulo*/
+    height: 100px;/*altura del circulo*/
+    border-radius: 50%;/*Redondea el borde*/
+    background-color: blue;/*color de fondo azul*/
+    border-style: solid;/*estilo de borde sólido*/
+    margin-top: 40px;/*margen superior*/
+    margin-bottom: 10px;/*margen general del elemento*/
+    display: block;/*visualización en bloque*/
+    margin-left: auto;/*margen de lado izquierdo automático*/
+    margin-right: auto;/*margen de lado derecho automático*/
+}
+.rectángulo{/*manipulación de un elemento para crear un réctangulo*/
+    border: #000;/*color de borde en negro*/
+    border-style: dashed;/*estilo de borde punteado*/
+    width: 295px;/*anchura del elemento*/
+    height: 350px;/*altura del elemeto*/
+    background-color: rgb(208, 255, 0);/*color de fondo en amarillo*/
+    margin-bottom: 10px;/*margen general*/
+    margin-right: auto;/*margen derecho automático*/
+    margin-left: auto;/*margen izquierdo automático*/
+}
+.triangulo{/*manipulación de un elemento para construir un triángulo*/
+width: 0;/*sin anchura del elemento*/
+right: 0;/*sin margen de lado derecho*/
+border: 150px solid;/*estilo de borde sólido*/
+border-top: 0;/*sin margen superior*/
+border-bottom: 150px solid #ff0000;/*margen de borde general con estilo sólido color rojo*/
+margin-left: auto;/*margen izquierdo automático*/
+margin-right: auto;/*margen derecho automático*/
+display:block;/*visualización en bloque*/
+}
+.rombo{/*manipulación de un elemento para la construcción de un rombo*/
+    width: 120px;/*anchura del elemento*/
+    height: 120px;/*altura del elemento*/
+    background-color: #ec5a04;/*color de fondo del elemento*/
+    box-shadow: 50px 50px 500px rgb(250, 2, 2), 0 0 2em  #ec5a04, 0 0 0.2em  #ec5a04;/*da un efecto neón*/
+    position: relative;/*posición relativa del elemento*/
+    transform: rotate(45deg);/*rotación del elemento*/
+    margin-top: -50px;/*margen superior*/
+    border-style: dashed;/*estilo del borde tipo punteado*/
+    margin-left: 500px;/*margen de lado izquierdo*/
+    margin-right: auto;/*margen de lado derecho automático*/
+    z-index: -1;/*manejo de las capas del elemento*/
+}
+.rombo2{/*manipulación de un elemento para la construcción de un rombo*/
+    width: 120px;/*anchura del elemento*/
+    height: 120px;/*altura del elemento*/
+    background-color: #ec5a04;/*color de fondo del elemento*/
+    box-shadow: 50px 50px 500px rgb(250, 2, 2), 0 0 2em  #ec5a04, 0 0 0.2em  #ec5a04;/*efecto tipo neón*/
+    position: relative;/*posición del elemento relativo*/
+    transform: rotate(45deg);/*rotación del elemento*/
+    margin-top: -125px;/*margen superior del elemento*/
+    border-style: dashed;/*estilo del margen tipo punteado*/
+    margin-left: auto;/*margen de lado izquierdo del elemento automático*/
+    margin-right: 500px;/*margen de lado derecho del elemeto*/
+    z-index: -1;/*manejo de las capas de los elementos*/
+}
+.triangulo1{/*manipulación de un elemento para construir un triángulo*/
+    width: 0;/*sin anchura del elemento*/
+    right: 0;/*sin margen de lado derecho del elemento*/
+    transform: rotate(90deg);/*rotación del elemento*/
+    border: 110px solid;/*tamaño de borde y estilo sólido del elemento*/
+    border-top: 0;/*sin margen superior*/
+    border-bottom: 150px solid #ff0000;/*borde general del elemento con estilo sólido color rojo*/
+    margin-top: -80px;/*margen superior*/
+    margin-left: 88%;/*margen de lado izquierdo*/
+    margin-right: 50%;/*margen de lado derecho*/
+    display:block;/*visualización en estilo de bloque*/
+    z-index: -1;/*manejo de capas del elemento*/
+    }
+    .triangulo2{/*manipulación de un elemento para construir un triángulo*/
+        width: 0;/*sin anchura del elemento*/
+        right: 0;/*sin maargen derecho*/
+        transform: rotate(-90deg);/*rotación del elemento*/
+        border: 110px solid;/*tamaño deborde tipo sólido*/
+        border-top: 0;/*sin margen superior*/
+        border-bottom: 150px solid #ff0000;/*tamaño de margen general tipo sólido color rojo*/
+        margin-top: -160px;/*margen superior*/
+        margin-left: -62%;/*margen de lado izquierdo*/
+        margin-right: 50%;/*margen de lado derecho*/
+        display:block;/*visualización en estilo de bloque*/
+        z-index: -1;/*capas del elemento*/
+        }
+        .n1{/*manipulación de un elemento para crear nubes*/
+            width:120px;/*anchura del elemento*/
+            height:120px;/*altura del elemento*/
+            border-radius:120px;/*ondulación de las 4 esquinas del borde*/
+            background-color:rgb(255, 255, 255);/*color de fondo*/	 		 	
+            margin:20px 0 0 60px;/*manipulación del elemento para dar forma de círculo*/	 	
+        }
+        
+        .n2{/*manipulación de un elemento para crear nubes*/
+            width:150px;
+            height:80px;	 	 	
+            border-radius: 80px / 50px;
+            background-color:rgb(255, 255, 255);	 	
+            margin:-90px 0 0 80px;
+        }
+        
+        .n3{/*manipulación de un elemento para crear nubes*/
+            width:150px;
+            height:90px;	 	
+            border-radius: 80px / 50px;
+            background-color:rgb(255, 255, 255);	 		 	
+            margin:-90px 0 0 0px;	 	
+        }
+        .n4{/*manipulación de un elemento para crear nubes*/
+            width:120px;
+            height:120px;	 	
+            border-radius:120px;
+            background-color:rgb(255, 255, 255);	 		 	
+            margin:20px 0 0 60px;
+            margin-top: -120px;
+            margin-left: auto;
+            margin-right: 50px;	 
+
+        }
+        
+        .n5{/*manipulación de un elemento para crear nubes*/
+            width:150px;
+            height:80px;	 	 	
+            border-radius: 80px / 50px;
+            background-color:rgb(255, 255, 255);	 	
+            margin:-90px 0 0 80px;
+            margin-top: -90px;
+            margin-left: auto;
+            margin-right: 50px;	
+        }
+        
+        .n6{/*manipulación de un elemento para crear nubes*/
+            width:200px;
+            height:90px;	 	
+            border-radius: 80px / 50px;
+            background-color:rgb(255, 255, 255);	 		 	
+            margin:-90px 0 0 0px;
+            margin-top: -220;
+            margin-left: auto;
+            margin-right: 10px;		 	
+        }
+        .n7{/*manipulación de un elemento para crear nubes*/
+            width:120px;
+            height:120px;	 	
+            border-radius:120px;
+            background-color:rgb(255, 255, 255);	 		 	
+            margin:20px 0 0 60px;
+            margin-top: -100px;
+            margin-left: auto;
+            margin-right: auto;	 
+        }
+        
+        .n8{/*manipulación de un elemento para crear nubes*/
+            width:150px;
+            height:90px;	 	 	
+            border-radius: 80px / 50px;
+            background-color:rgb(255, 255, 255);	 	
+            margin:-90px 0 0 80px;
+            margin-top: -100px;
+            margin-left: auto;
+            margin-right: auto;	
+        }
+        
+        .n9{/*manipulación de un elemento para crear nubes*/
+            width:200px;
+            height:90px;	 	
+            border-radius: 80px / 50px;
+            background-color:rgb(255, 255, 255);	 		 	
+            margin:-100px 0 0 0px;
+            margin-top: -90px;
+            margin-left: auto;
+            margin-right: auto;		 	
+        }
+         
